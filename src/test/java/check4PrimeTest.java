@@ -13,6 +13,7 @@ public class check4PrimeTest extends TestCase {
 
     //constructor
     public check4PrimeTest(String name) {
+
         super(name);
     }
 
@@ -25,7 +26,10 @@ public class check4PrimeTest extends TestCase {
 
     //Test case 1
     public void testCheckPrime_true() {
-        assertTrue(check4prime.primeCheck(3));
+int num = 3;
+        //assertTrue(check4prime.primeCheck(3));
+        assertTrue(check4prime.primeCheck(num));
+        System.out.println("Test 1: el número " + num + " es primo");
     }
 
     //Test cases 2,3
