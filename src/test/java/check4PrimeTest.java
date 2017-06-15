@@ -5,6 +5,8 @@
 //Imports
 
 import junit.framework.*;
+//import org.junit.jupiter.api.Test;
+//import static org.junit.jupiter.api.Assertions.*;
 //import  org.junit.jupiter.*;
 
 public class check4PrimeTest extends TestCase {
